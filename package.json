@@ -1,0 +1,27 @@
+{
+  "name": "FreeQ",
+  "description": "User queue for websites under heavy load (eg ticketing systems). Free, open source.",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "author": "Søren Thing Andersen <soeren@thing.dk>",
+  "keywords": [],
+  "licenses": {
+    "type": "mit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TheFreeQ/FreeQ.git"
+  },
+  "bugs": {
+    "url": "http://github.com/TheFreeQ/FreeQ/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "1.4.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "12dd7a8ef03cdd8a3b87484aa886fe61fd2bb3b3"
+}
