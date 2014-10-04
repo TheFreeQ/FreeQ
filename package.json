@@ -17,7 +17,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "mongodb": "1.4.x"
+    "mongodb": "1.4.x",
+    "express": "~4.9.5",
+    "async": "~0.9.0"
   },
   "scripts": {
     "start": "node server.js"
